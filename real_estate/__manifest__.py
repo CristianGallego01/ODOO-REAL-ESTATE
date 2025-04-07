@@ -10,4 +10,5 @@
         "views/estate_property_menus.xml",
     ],
     "application": True,
+    "installable": True,
 }
