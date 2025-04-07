@@ -1,7 +1,7 @@
 {
     "name": "Real Estate in odoo",
     'version': '1.0.1',
-    "depends": ["base", "sale", "account"
+    "depends": ["base", "account"
                 
     ],
     "data": [
