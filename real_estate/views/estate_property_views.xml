@@ -19,9 +19,9 @@
         <field name="model">estate.property</field>
         <field name="arch" type="xml">
             <tree string="Properties">
-                <field name="name"  string="Title"/>
-                <field name="postcode"/>
-                <field name="bedrooms"/>
+                <field name="name" string="nombre propiedad"/>
+                <field name="postcode"  string="codigo postal"/>
+                <field name="bedrooms" string="habitaciones"/>
                 <field name="living_area"/>
                 <field name="expected_price"/>
                 <field name="selling_price"/>
