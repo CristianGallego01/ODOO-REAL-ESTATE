@@ -4,6 +4,8 @@ class EstateProperty(models.Model):
     _name = "estate.property"
     _description = "Real Estate Property"
 
+    invoice_id = fields.Many2one('account.move', string='Factura relacionada')
+
     name = fields.Char(required=True)
     description = fields.Text()
     active = fields.Boolean(default=True)

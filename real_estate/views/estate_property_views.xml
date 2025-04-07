@@ -51,6 +51,7 @@
                             <field name="selling_price"/>
                             <field name="garden_orientation"/>
                             <field name="state" string="estado"/>
+                            <field name="invoice_id"/>
                         </group>
                     </group>
                 </sheet>
